@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html {
+        font-family: sans-serif;
+        margin: 0; padding: 0;
+      }
+
+      #sanate {
+        width: 200px;
+      }
+
+      .tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: darkgrey;
+        font-weight: 500;
+      }
+
+      .cards {
+        display: flex;
+      }
+
+      .card {
+        width: 50%;
+      }
+
+      h1, h2, h3, h4 {
+        text-align: center;
+      }
+
+      h3 + h4.tagline {
+        margin-bottom: 0;
+      }
+
+      h3:not(.tagline):has(+ .tagline) {
+        margin-bottom: 3px;
+      }
+
+      .cards-2 {
+        display: flex;
+        margin-top: 17px;
+      }
+
+      .card-2 {
+        width: 40%;
+      }
+
+      #whatsapp {
+        height: 50px;
+        float: right;
+      }
+
+      #telnum {
+        margin-top: 11px;
+        margin-left: 5px;
+      }
+
+      #qr {
+        height: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cards">
+      <img id="sanate" src="img/sanate.png" />
+
+      <div>
+        <h1>Consejería naturista SANATE</h1>
+        <h3 class="tagline">
+          Salud física ☯︎ mental ☯︎ emocional ☯︎ espiritual.
+        </h3>
+
+        <h2>¿A qué nos dedicamos?</h2>
+    <!-- TODO: Conotaciones zanate. -->
+
+    <p>
+      La salud es integridad del cuerpo, alma y espíritu. Si estamos en balance, estamos sanos.
+    </p>
+      </div>
+    </div>
+
+    <!-- [CITAT de la Biblia...y más, Confucius etc] -->
+
+    <p>
+      La verdad es que la solución está en ti. Tu puedes sanar solo y la verdad es que solu tú puedes sanar, nadie más puede hacerlo por ti.
+    </p>
+
+    <!-- [LIBRA] -->
+
+    <div class="cards">
+      <!-- TODO: Photos (separate or together?). -->
+      <div class="card">
+        <!-- ☯ Jakub | sabiduría antigua asiática | sensible | meditación | sanación energética -->
+
+        <h3>Jakub</h3>
+        <h4 class="tagline">Sanación del alma</h4>
+
+        <p>
+          Jakub pasó muchos años investigando sabiduría ancestral de antigua India, China y Japón.
+        </p>
+
+        <p>
+          A través de su dedicación se le abrió conexión con Dios sin esperarlo y estaba recibiendo guíanza divina desde entonces.
+        </p>
+
+        <img src="img/healing.jpg" />
+
+        <p>
+          Desde allí Jakub desarrolló el don de sanar con energía lo que está practicando hasta el día de hoy.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Herlinda</h3>
+        <h4 class="tagline">Naturista, sensible</h4>
+      </div>
+
+      <div class="card">
+        <h3>Eduardo</h3>
+        <h4 class="tagline">Naturista</h4>
+      </div>
+    </div>
+
+    <div class="cards-2">
+      <div class="card-2">
+        <img id="whatsapp" src="img/whatsapp.svg" />
+      </div>
+      <h3 id="telnum">+52 962 358 6601</h3>
+      <img id="qr" src="img/whatsapp-qr.jpg" />
+    </div>
+  </body>
+</html>
