@@ -1,0 +1,10 @@
+* About
+
+sanate.com.mx
+Useful to point people to our web to read more.
+Blog & FB page.
+Newsletter?
+About me -> My story, now, farming aguacate, our house etc.
+Services page.
+Book a session.
+Use Netlify for hosting.
